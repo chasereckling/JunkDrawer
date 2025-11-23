@@ -19,9 +19,9 @@ $ ctrl + c
 ```
 
 2. install networkmanager  
+```
 // open new terminal
 // run command to download and install network manager
-```
 $ sudo pacman -S networkmanager  
 ```
 
