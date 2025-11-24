@@ -65,3 +65,44 @@ $ ctrl + c
 ### YAY IT WORKS!  
 
 ---
+---
+
+## SET UP AUR HELPER (paru) 
+
+https://github.com/Morganamilo/paru  
+
+1. install requirements  
+```
+// the needed flag is to check if the package is already installed and ignore
+sudo pacman -S --needed base-devel git
+```
+
+2. clone and build paru (anywhere works as the location since we'll clean it all up anyway but i usually have a temp folder off the home dir for all my garbage so i clone it there)  
+```
+// -si flags tell makepkg to install dependencies and install the package after building
+// you may be prompted to pick a rust dependency either 'rust' or 'rustup'.. rustup is a toolchain manager so if you're not going to be developing in rust just choose the base 'rust' package
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+
+3. clean up build dir (don't be a messy bessy)  
+```
+cd ..
+rm -rf paru
+```
+
+4. test paru with a search  
+```
+paru -Ss firefox
+```
+
+5. optional things  
+```
+// i like to install 'bat' to enable syntax highlighting during PKGBUILD review
+pacman -S bat
+
+// i like to have color enabled in my paru outputs
+// uncomment '#color' in pacman configuration
+vim /etc/pacman.conf
+```
