@@ -10,11 +10,15 @@ TODO
 - rofi
 - clipboard history (clipist - link to rofi)
 - fprintd (fingure print auth)
+- sleep config
+- audio input/output manger (pulsewire?)
 
 TRYOUT
 - NeoMutt (terminal email)
 - tilde town https://tilde.town/signup/
 - Beeper (message aggrgator)
+- dwm
+- dmenu
 
 FIXES
 - firefox ttf font... mono font not the best
