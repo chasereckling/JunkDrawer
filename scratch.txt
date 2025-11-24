@@ -6,6 +6,9 @@ TODO
 - quickshell? ryo or find ootb solution
 - ssh config
 - website building
+- file manager (ranger, pcmanfm)
+- rofi
+- clipboard history (clipist - link to rofi)
 
 FIXES
 - firefox ttf font... mono font not the best
