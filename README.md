@@ -1,2 +1,2 @@
 # JunkDrawer
-my linux junk drawer
+my junk drawer
