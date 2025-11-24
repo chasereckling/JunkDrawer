@@ -9,6 +9,12 @@ TODO
 - terminal / graphical file manager (yazi, ranger, pcmanfm)
 - rofi
 - clipboard history (clipist - link to rofi)
+- fprintd (fingure print auth)
+
+TRYOUT
+- NeoMutt (terminal email)
+- tilde town https://tilde.town/signup/
+- Beeper (message aggrgator)
 
 FIXES
 - firefox ttf font... mono font not the best
