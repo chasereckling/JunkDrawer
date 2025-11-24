@@ -1,0 +1,8 @@
+TODO
+- niri config: window paddings, key bindings, bar(?)
+- choose terminal and shell (config theme)
+- tmux (config theme)
+- swaybg and add wallpaper
+- quickshell? ryo or find ootb solution
+- ssh config
+- website building
