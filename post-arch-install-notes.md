@@ -1,5 +1,8 @@
 # POST ARCH INSTALL NOTES  
 
+## PREAMBLE  
+for context i am using niri for WM and that's it so far so pretty bare bones... i know a lot of these things might be included with a full desktop env install but i like to keeps things minimal, only install what i need, and configure it myself so i know what i am working with ect.   
+
 ## SET UP NetworkManager  
 1. connect temporarily with iwd (basic default network service) so that you can download NetworkManager  
 ```
@@ -105,4 +108,16 @@ pacman -S bat
 // i like to have color enabled in my paru outputs
 // uncomment '#color' in pacman configuration
 vim /etc/pacman.conf
+```
+
+---
+---
+
+## ADD BASIC PACKAGES  
+```
+// bloated browser of choice
+sudo pacman -S firefox
+
+// preferred fonts
+sudo pacman -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd
 ```
