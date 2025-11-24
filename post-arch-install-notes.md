@@ -1,7 +1,14 @@
 # POST ARCH INSTALL NOTES  
 
 ## PREAMBLE  
-for context i am using niri for WM and that's it so far so pretty bare bones... i know a lot of these things might be included with a full desktop env install but i like to keeps things minimal, only install what i need, and configure it myself so i know what i am working with ect.   
+for context i am using niri for WM and that's it so far so pretty bare bones... i know a lot of these things might be included with a full desktop env install but i like to keeps things minimal, only install what i need, and configure it myself so i know what i am working with ect.  
+
+### NOTES:
+- sound: i installed pipewire during the install and sound works without any additional fiddling.. thank goodness, i still have PTSD about configuring sound from my Void install  
+- waybar: seem that it was installed as a dependency while installing the niri package... config comes super broken out of the box so might just try using something else like swaybar since i liked it's minimalism on my Void install with Sway or not have any so we'll see  
+
+---
+---
 
 ## SET UP NetworkManager  
 1. connect temporarily with iwd (basic default network service) so that you can download NetworkManager  
@@ -64,8 +71,7 @@ $ reboot
 $ ping google.com
 // you should see packet are transferring and then stop ping
 $ ctrl + c
-```
-### YAY IT WORKS!  
+``` 
 
 ---
 ---
@@ -110,6 +116,8 @@ pacman -S bat
 vim /etc/pacman.conf
 ```
 
+### YAY IT WORKS! ERR.. I MEAN, PARU IT WORKS!
+
 ---
 ---
 
@@ -120,4 +128,8 @@ sudo pacman -S firefox
 
 // preferred fonts
 sudo pacman -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd
+
+// brightness functionality
+// worked out of the box with niri so keybindings were set up already in it's config
+sudo pacman -S brightnessctl
 ```
