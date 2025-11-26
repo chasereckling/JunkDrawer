@@ -5,13 +5,14 @@ TODO
 - swaybg and add wallpaper
 - quickshell? ryo or find ootb solution
 - ssh config
-- website building
+- website building (start with hugo)
 - terminal / graphical file manager (yazi, ranger, pcmanfm)
 - rofi
 - clipboard history (clipist - link to rofi)
 - fprintd (fingure print auth)
 - sleep config
 - audio input/output manger (pulsewire?)
+- design cross platform markdown post > hugo > website pipeline
 
 TRYOUT
 - NeoMutt (terminal email)
