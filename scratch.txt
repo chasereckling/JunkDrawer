@@ -21,6 +21,7 @@ TRYOUT
 - dwm
 - dmenu
 - emacs
+- obsidian
 
 FIXES
 - firefox ttf font... mono font not the best
