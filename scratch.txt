@@ -19,6 +19,7 @@ TRYOUT
 - Beeper (message aggrgator)
 - dwm
 - dmenu
+- emacs
 
 FIXES
 - firefox ttf font... mono font not the best
