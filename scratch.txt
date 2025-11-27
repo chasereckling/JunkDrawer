@@ -22,6 +22,7 @@ TRYOUT
 - dmenu
 - emacs
 - obsidian
+- rmpc https://rmpc.mierak.dev/
 
 FIXES
 - firefox ttf font... mono font not the best
