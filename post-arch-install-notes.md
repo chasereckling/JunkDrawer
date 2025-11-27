@@ -132,4 +132,29 @@ sudo pacman -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd
 // brightness functionality
 // worked out of the box with niri so keybindings were set up already in it's config
 sudo pacman -S brightnessctl
+
+// basic text editor
+sudo pacman -S micro
+```
+
+---
+---
+
+## VISUAL STUDIO CODE  
+```
+// install vscode package
+sudo paru -S visual-studio-code-bin
+
+// then since i'm using a wayland compositor (niri) and vscode is electron based we need to add the following to our niri.kdl
+// more here: https://github.com/YaLTeR/niri/wiki/Application-Issues
+environment {
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+}
+```
+
+## NIRI
+```
+//install for x11 app support
+// https://github.com/YaLTeR/niri/wiki/Xwayland
+sudo pacman -S xwayland-satellite
 ```
