@@ -24,6 +24,7 @@ TRYOUT
 - obsidian
 - rmpc https://rmpc.mierak.dev/
 - arch-manwarn https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system
+- irc / discords
 
 FIXES
 - firefox ttf font... mono font not the best
