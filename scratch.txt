@@ -27,6 +27,7 @@ TRYOUT
 - arch-manwarn https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system
 - irc / discords
 - codeberg
+- https://github.com/bcamp1/life-cli
 
 FIXES
 - firefox ttf font... mono font not the best
